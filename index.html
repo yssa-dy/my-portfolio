@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Portfolio Website</title>
+  </head>
+
+  <body>
+    <div class="navbar" id="nav-bar">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkBtn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <label class="icon">卍 Port<span class="icon-style">folio</span></label>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Home Section -->
+    <section id="home">
+      <!-- Content of the home section goes here -->
+      <div class="wrapper">
+        <header>
+          <h1>Welcome to My Port<span>folio.</span></h1>
+        </header>
+        <div class="text">
+          <article>
+            <h2>My Projects</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi
+            </p>
+            <a href="#">► View Projects</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="wrapper-about">
+        <header>
+          <h1>About<span>Me</span></h1>
+        </header>
+        <div class="image-about">
+          <img src="images/image2.jpeg" alt="about image" />
+        </div>
+        <div class="text-about">
+          <article>
+            <h3>Hi I'm <span>Jessa Joy Dy</span></h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque
+              laoreet suspendisse interdum consectetur libero id faucibus nisl.
+              Massa vitae tortor condimentum lacinia quis vel. Libero enim sed
+              faucibus turpis in eu mi. Maecenas pharetra convallis posuere
+              morbi leo urna molestie at elementum. Egestas dui id ornare arcu
+              odio. Scelerisque purus
+            </p>
+          </article>
+        </div>
+      </div>
+      <!-- Content of the about section goes here -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Con<span>tact</span></h2>
+        <p>Feel free to get in touch with me.</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container-footer">
+        <div class="social-icons">
+          <a href="#" target="_blank" class="social-icon"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" target="_blank" class="social-icon"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" target="_blank" class="social-icon"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" target="_blank" class="social-icon"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+        <p>&copy; 2023 Jessa Joy Dy. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Back to top arrow -->
+    <div id="back-to-top">&uarr;</div>
+    <script src="script.js"></script>
+  </body>
+</html>
